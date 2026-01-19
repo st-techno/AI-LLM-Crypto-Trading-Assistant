@@ -19,6 +19,7 @@ Balanced: Max 15% meme coins
 
 Degen: Max 40% meme coins
 
+
 3. XP Gaming System
 
 Earn points for every trade/query
@@ -26,6 +27,7 @@ Earn points for every trade/query
 Level up system (1000, 5000, 15000 XP levels)
 
 Tracks your progress automatically
+
 
 4. Production Safety Features
 
@@ -39,12 +41,17 @@ Tracks your progress automatically
 
 ✅ Redis database ready (scales big)
 
+
 5. Web API Ready
 
 bash
-# Runs as professional web service
+
+## Runs as professional web service
+
 uvicorn production_crypto_ai:app --host 0.0.0.0 --port 8000
-# Docker ready for cloud deployment
+
+## Docker ready for cloud deployment
+
 6. WebSocket Live Trading
 
 Real-time trading updates via WebSocket
