@@ -1,6 +1,17 @@
 
 ## AI LLM Powered Crypto Trading and Meme Coin Trading Assistant
 
+## Simple Feature Flow
+
+1. Query Arrives → API/WebSocket receives trade request
+2. Data Check → Validates inputs, rejects bad data
+3. Risk Guard → Blocks excessive meme coin bets by profile
+4. Meme Scanner → Scores SHIB/PEPE coins (dog words = high score)
+5. XP Reward → +10 points for every query
+6. AI Brain → Generates BUY/HOLD signal with confidence
+7. Reply Sent → JSON response with scores/timestamps
+
+   
 ## Core Features:
 
 1. Smart Meme Coin Detector
@@ -40,7 +51,6 @@ Tracks your progress automatically
 ✅ Monitoring hooks (Sentry alerts)
 
 ✅ Redis database ready (scales big)
-
 
 5. Web API Ready
 
